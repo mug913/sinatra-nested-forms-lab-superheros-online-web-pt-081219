@@ -11,4 +11,7 @@ def initialize(name,power,bio)
   @@all << self
 end
 
+def self.all
+  @@all
+end
 end
