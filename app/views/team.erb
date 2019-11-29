@@ -1,10 +1,13 @@
 <header>
 <h2><%=@team.name%></h2>
-<h><%=@team.motto%></h>
+<h>Team Motto: <%=@team.motto%></h>
 </header>
 <body>
-
-
+<%@heroes.each do |h| %>
+<h>Hero Name: <%=h.name%></h>
+<h>Hero Name: <%=h.name%></h>
+<h>Hero Name: <%=h.name%></h>
+<%end%>
 
 
 </body>
