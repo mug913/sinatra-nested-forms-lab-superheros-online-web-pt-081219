@@ -1,12 +1,13 @@
 class Hero
 
-attr_accessor :name, :motto
+attr_accessor :name, :power, :bio
 
 @@all = []
 
-def initialize(name,motto)
+def initialize(name,power,bio)
   @name = name
-  @motto = motto
+  @power = power
+  @bio = bio
   @@all << self
 end
 
