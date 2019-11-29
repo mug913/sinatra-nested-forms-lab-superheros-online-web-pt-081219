@@ -1,4 +1,7 @@
 require 'sinatra/base'
+require_relative './models/hero.rb'
+require_relative './models/team.rb'
+
 
 class App < Sinatra::Base
 
@@ -8,6 +11,7 @@ class App < Sinatra::Base
       erb :super_hero
     end
 
+    post '/teams' do
 
 
 end
